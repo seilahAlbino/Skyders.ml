@@ -1,0 +1,37 @@
+.list-subcategories-editor li {
+    display: flex;
+    list-style-type: none;
+}
+
+.list-subcategories-editor a {
+    text-decoration: none;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+.list-subcategories-editor a:hover {
+    color: brown;
+}
+
+input {
+    color: black;
+    text-align: center;
+}
+
+#idNameSubCategory {
+    width: 200px;
+}
+
+#idImgSubCategory {
+    margin-top: 5px;
+    width: 280px;
+}
+
+#newidNameSubCategory {
+    width: 250px;
+}
+
+#newidImgSubCategory {
+    margin-top: 5px;
+    width: 320px;
+}

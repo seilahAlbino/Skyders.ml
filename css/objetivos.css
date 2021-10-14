@@ -1,0 +1,53 @@
+.objetivos {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    overflow-x: hidden;
+    margin-bottom: 120px;
+}
+
+.objetivos .col-md-12 {
+    height: 100%;
+}
+
+.objetivos .carousel-inner {
+    height: 100%;
+}
+
+.objetivos .carousel-item {
+    height: 100%;
+}
+
+.objetivos .carousel {
+    height: 100%;
+}
+
+.objetivos .row {
+    align-items: center;
+    height: 100vh;
+    border-bottom: 5px solid rgb(77, 77, 77);
+    border-top: 5px solid rgb(77, 77, 77);
+}
+
+.objetivos img {
+    margin: 20px 0;
+    height: 90%;
+    width: 70%;
+}
+
+.h1Objetivos {
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .objetivos {
+        height: 50vh;
+    }
+    .objetivos .row {
+        height: 50vh;
+    }
+    .objetivos img {
+        margin: 20px 0;
+        height: 80%;
+        width: 80%;
+    }
+}

@@ -1,0 +1,41 @@
+.list-categories-editor li {
+    display: flex;
+    list-style-type: none;
+}
+
+.list-categories-editor a {
+    text-decoration: none;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+.list-categories-editor a:hover {
+    color: brown;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    color: black;
+    text-align: center;
+}
+
+#idNameCategory {
+    width: 200px;
+}
+
+#idImgCategory {
+    margin-top: 5px;
+    width: 280px;
+}
+
+#newidNameCategory {
+    width: 250px;
+}
+
+#newidImgCategory {
+    margin-top: 5px;
+    width: 320px;
+}

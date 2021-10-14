@@ -1,0 +1,26 @@
+.video {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 60vh;
+    overflow-x: hidden;
+    margin-bottom: 120px;
+}
+
+.video .col-md-12 {
+    height: 100%;
+}
+
+.video .row {
+    align-items: center;
+    height: 60vh;
+    border-bottom: 5px solid rgb(77, 77, 77);
+    border-top: 5px solid rgb(77, 77, 77);
+}
+
+@media only screen and (max-width: 467px) {
+    .video {
+        height: 30vh;
+    }
+    .video .row {
+        height: 30vh;
+    }
+}
